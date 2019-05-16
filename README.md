@@ -2,7 +2,7 @@
 
 Working Keras replication of AdvGAN by Xiao et al. (2018) https://arxiv.org/abs/1801.02610.
 
-The generator and discriminator of AdvGAN is currently implemented on 1s and 3s from the MNIST dataset of handwritten digits. The target classifier (and adversarial loss) is not yet implemented, so this can currently be treated as an ordinary GAN.
+The generator and discriminator of AdvGAN are currently implemented on 1s and 3s from the MNIST dataset of handwritten digits. The target classifier (and adversarial loss) is not yet implemented, so this can currently be treated as an ordinary GAN.
 
 ![From random noise to digits](https://raw.githubusercontent.com/niharikajainn/adv_gan_keras/master/35_epochs_training.gif)
 
