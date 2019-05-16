@@ -1,6 +1,7 @@
 # adv_gan_keras
 
-Working Keras replication of AdvGAN by Xiao et al. (2018) https://arxiv.org/abs/1801.02610.
+Working Keras implementation of AdvGAN by Xiao et al. (2018) https://arxiv.org/abs/1801.02610.
+The key difference between this implementation and the architecture from the paper is that the generator here does not produce a perturbation to then add to an original input image, but rather produces the perturbed image.
 
 The generator and discriminator of AdvGAN are currently implemented on 1s and 3s from the MNIST dataset of handwritten digits. The target classifier (and adversarial loss) is not yet implemented, so this can currently be treated as an ordinary GAN.
 
